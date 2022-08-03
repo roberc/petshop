@@ -1,5 +1,5 @@
 
-<app-login *ngIf="logged_in else i_am_logged" (logged_in)="logged_in = $event"></app-login>
+<app-login *ngIf="!logged_in else i_am_logged" (logged_in)="logged_in = $event"></app-login>
 
 <ng-template #i_am_logged>
     <app-pet-create *ngIf="add_dialogue" (return)="save_pet($event)"></app-pet-create>
