@@ -1,0 +1,20 @@
+table {
+    margin: auto;
+    width: 500px;
+    max-width: 100%;
+    td {
+        padding: 6px 12px;
+    }
+    tbody {
+        tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+        tr:hover {
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+    }
+}
+button {
+    margin-bottom: 20px;
+}
