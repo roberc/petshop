@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
+## How to use
+
+Take petstore swagger docker image from here: https://hub.docker.com/r/swaggerapi/petstore/
+
+Launch the docker as written in the example
+
+Use credentials as shown in the placeholders: "user" for login, "pass" for password.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
